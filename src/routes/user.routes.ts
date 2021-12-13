@@ -1,9 +1,15 @@
-import { Router } from "express";
-import { UserController } from '../resources/user/user.controllers';
+import { Router } from 'express';
+import UserController from '../resources/user/user.controllers';
+import userAuthenticated from '../middlewares/userAuthenticated';
 
-const userRouter = Router()
+const userRouter = Router();
 const userController = new UserController();
 
+userRouter.post('/signin', userController.signin);
+userRouter.post('/signup', userController.signup);
+userRouter.get('/me', userAuthenticated, userController.me);
+
+export default userRouter;
 // API-REST
 // GET    - busca e retornar algum dado
 // POST   - Inserir/Criar informação no servidor (parâmetros via body/header..)
@@ -12,8 +18,3 @@ const userController = new UserController();
 // DELETE - Excluir
 
 //'path/url', 'função'
-userRouter.post('/signin', userController.signin)
-
-userRouter.post('/signup', userController.signup)
-
-export  default userRouter;

@@ -11,13 +11,13 @@ export class User {
   id: string;
 
   @Column()
-  firstname: string;
+  firstName: string;
 
   @Column()
   lastName: string;
 
   @Column()
-  accounterNumber: number;
+  accountNumber: number;
 
   @Column()
   accountDigit: number;
