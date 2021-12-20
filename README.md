@@ -24,7 +24,7 @@
 
 ## 📷 Screen shots
 - Insomnia
-<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-login.PNG" alt="screen-login" height="250px">
-<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-create.PNG" alt="screen-create" height="250px">
-<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-me.PNG" alt="screen-extrato" height="250px">
-<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-request.PNG" alt="screen-request" height="250px">
+<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-login.PNG" alt="screen-login" width="900px">
+<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-create.PNG" alt="screen-create" width="900px">
+<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-me.PNG" alt="screen-extrato" width="900px">
+<img src="https://github.com/BrunoSobralDEV/semana-inter/blob/main/screen-request.PNG" alt="screen-request" width="900px">
